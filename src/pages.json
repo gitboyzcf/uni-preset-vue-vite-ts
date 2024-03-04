@@ -5,8 +5,47 @@
 			"style": {
 				"navigationBarTitleText": "首页"
 			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/messages/messages",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/personal-center/personal-center",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
 		}
 	],
+	"tabBar": {
+		"color": "#333",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/messages/messages",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/personal-center/personal-center",
+				"text": "个人中心"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
