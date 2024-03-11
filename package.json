@@ -85,8 +85,17 @@
     "eslint-plugin-vue": "^9.22.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
+    "postcss": "^8.4.35",
+    "postcss-html": "^1.6.0",
+    "postcss-scss": "^4.0.9",
     "sass": "^1.71.1",
     "sass-loader": "^14.1.1",
+    "stylelint": "^16.2.1",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recess-order": "^5.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
     "typescript": "^4.9.4",
     "unplugin-auto-import": "^0.17.5",
     "vite": "4.1.4",
@@ -96,11 +105,6 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
