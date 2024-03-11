@@ -9,9 +9,10 @@
 </template>
 
 <script setup lang="ts">
-import { useCountStore } from "@/store/count";
-const countStore = useCountStore();
-const count = ref(0);
+import { useCountStore } from '@/store/count'
+
+const countStore = useCountStore()
+console.log(123)
 </script>
 
 <style scoped lang="scss">
@@ -20,13 +21,11 @@ const count = ref(0);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   .logo {
-    height: 200rpx;
     width: 200rpx;
-    margin-top: 200rpx;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50rpx;
+    height: 200rpx;
+    margin: 200rpx auto 50rpx;
   }
 }
 
