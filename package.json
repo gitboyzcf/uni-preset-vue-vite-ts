@@ -98,6 +98,11 @@
       "path": "node_modules/cz-customizable"
     }
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "**/*.{html,vue,ts,cjs,json,md}": [
       "prettier --write"
